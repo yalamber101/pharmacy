@@ -12,7 +12,7 @@
     <title>Document</title>
   </head>
   <body>
-    <main class="px-2 py-4">
+    <main class="px-2 py-4 capitalize">
       <nav
         class="flex gap-10 py-4 bg-blue-100 border border-none rounded-[2rem] items-center"
       >
@@ -47,38 +47,107 @@
           <a href=""><i class="ri-contacts-fill"></i> Login</a>
         </div>
       </nav>
-      <div class="hero-section bg-green-300 h-screen my-3">
+      <div class="hero-section bg-green-300 h-screen my-3 p-6 text-white">
         <div class="upper-part">
-          <h1 class="text-[12.5rem]">Pharmachy</h1>
+          <h1 class="text-[11rem]">Pharmachy</h1>
         </div>
-        <div class="lower-part flex justify-between">
-          <div
-            class="left-part w-[400px] bg-blue-300 flex flex-col gap-[14rem]"
-          >
+        <div class="lower-part flex gap-4 h-1/2">
+          <div class="left-part flex-1 flex flex-col gap-25">
             <h1>
               the entire scope of information and practices within the field
               of pharmacy, which links the chemical sciences with health
               sciences to ensure the safe and effective use of drugs.
             </h1>
-            <div class="a">
-              <a href="">Dilivery to your doorstep</a>
-              <a href="">100% geninune medicine</a>
+            <div class="a flex gap-4">
+              <div class="box1 border border-green-300 flex gap-2">
+                <div
+                  class="btn1 border border-transparent p-3 rounded-[50%] bg-green-900 m-auto"
+                >
+                  <i class="ri-truck-line text-2xl"></i>
+                </div>
+
+                <a href="" class=""
+                  >Dilivery to <br />
+                  your doorstep</a
+                >
+              </div>
+
+              <div class="box2 border border-green-300 flex gap-2 m-auto">
+                <div
+                  class="btn2 border border-transparent p-3 rounded-[50%] bg-green-900 m-auto"
+                >
+                  <i class="ri-capsule-line text-2xl"></i>
+                </div>
+                <a href="" class="">
+                  100% geninune <br />
+                  medicine</a
+                >
+              </div>
             </div>
           </div>
-          <div class="img absolute left-[400px] bg-red-500">
-            <img
-              src="/web/img/pexels-tuan-dang-quoc-478520204-35000862-removebg-preview.png"
-              alt=""
-              srcset=""
-              height="400px"
-              width="300px"
-            />
+          <div class="middle flex-1 relative">
+            <div
+              class="img absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[110%] w-[90%]"
+            >
+              <img
+                src="/web/img/pexels-tuan-dang-quoc-478520204-35000862-removebg-preview.png"
+                alt=""
+                class="h-full w-full object-contain scale-125"
+              />
+            </div>
           </div>
-          <div class="right-part flex flex-col gap-[14rem] bg-blue-300">
-            <textarea id=""> upload pricripation</textarea>
 
-            <button>Order via pricripation</button>
+          <div
+            class="right-part flex-1 flex flex-col relative border bg-white"
+          >
+            <div
+              class="border1 h-2/3 flex justify-center items-center text-2xl gap-3"
+            >
+              <div
+                class="dot border border-black border-dotted border-3 px-6 py-14 bg-blue-100"
+              >
+                upload pricripation <i class="ri-booklet-line"></i>
+              </div>
+            </div>
+            <div class="btn flex justify-center items-center h-1/3">
+              <div class="gap1 p-3 flex gap-3">
+                <button class="p-2 rounded-[2rem] bg-green-900">
+                  <i class="ri-file-upload-fill"></i>
+                </button>
+                <button class="p-2 rounded-[2rem] bg-green-900">
+                  Order via pricripation
+                </button>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+      <div class="second-section flex gap-5 relative">
+        <div class="bone-care flex-1 bg-pink-500">
+          <img
+            src="/web/img/bone-and_-joint-care-removebg-preview.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="diabeties flex-1 bg-yellow-500 h-[120%]">
+          <img src="/web/img/diabeties.png" alt="" srcset="" />
+        </div>
+        <div class="kidney-care flex-1 bg-orange-200 h-full">
+          <img src="/web/img/kidney-care.png" alt="" srcset="" />
+        </div>
+        <div class="heart-care flex-1 bg-pink-300">
+          <img src="/web/img/heart-care.png" alt="" srcset="" />
+        </div>
+        <div class="respritory flex-1 bg-blue-300 h-full">
+          <img
+            src="/web/img/respritory-removebg-preview.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="eye-cares flex-1 bg-orange-700 h-full">
+          <img src="/web/img/eye-care.png" alt="" srcset="" />
         </div>
       </div>
     </main>
